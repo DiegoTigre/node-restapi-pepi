@@ -35,7 +35,7 @@ const postTicket = (request, response) => {
 };
 
 //ruta
-app.route("/ticket")
+app.route("/ticketpost")
 .post(postTicket);
 
 //--Detalle seguimiento ticket

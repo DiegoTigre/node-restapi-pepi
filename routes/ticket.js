@@ -90,7 +90,7 @@ const getTicketDet = (request, response) => {
 };
 
 //ruta
-app.route("/ticket/:id")
+app.route("/")
 .get(getTicketDet);
 
 

@@ -6,6 +6,6 @@
     }],
     "routes": [{
         "src": "/routes(.*)",
-        "dest": "/ticket"
+        "dest": "/"
     }]
 }
